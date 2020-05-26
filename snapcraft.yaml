@@ -2,7 +2,7 @@ name: sad
 
 base: core18
 
-version: "0.3.3"
+version: "0.4.0"
 
 summary: |-
   Search and replace | Space Age seD
@@ -22,11 +22,11 @@ description: |-
 
 
 grade: stable
-confinement: classic
+confinement: devmode
 
 apps:
   sad:
-    command: /usr/bin/sad
+    command: sad
 
 parts:
   sad:

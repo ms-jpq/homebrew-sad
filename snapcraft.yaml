@@ -22,7 +22,7 @@ description: |-
 
 
 grade: stable
-confinement: classic
+confinement: devmode
 
 apps:
   sad:

@@ -7,7 +7,7 @@ version: "0.3.3"
 summary: Search and replace | Space Age seD
 
 description: |-
-    sad is a regex search / replace tool. it provides vastly
+  sad is a regex search / replace tool. it provides vastly
   improved ergonomics over sed.
 
   * amazing terminal UI.

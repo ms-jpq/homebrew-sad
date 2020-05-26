@@ -4,7 +4,8 @@ base: core18
 
 version: "0.3.3"
 
-summary: Search and replace | Space Age seD
+summary: |-
+  Search and replace | Space Age seD
 
 description: |-
   sad is a regex search / replace tool. it provides vastly

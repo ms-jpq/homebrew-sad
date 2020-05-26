@@ -4,8 +4,8 @@ class Sad < Formula
   version "0.3.3"
   bottle :unneeded
 
-  url "https://github.com/ms-jpq/sad/releases/download/ci_0.3.3_2020-05-26_06-47/x86_64-apple-darwin.zip"
-  sha256 "aa10da75759a9f24868f685e195d17ea07a311cf89adc72d2c3469d0dcd88756"
+  url "https://github.com/ms-jpq/sad/releases/download/ci_0.3.3_2020-05-26_06-51/x86_64-apple-darwin.zip"
+  sha256 "ffafab81db7e05a3a823cea36f737d1a845629ca62f6527b95b87e6f3db11a8b"
 
   def install
     bin.install "sad"

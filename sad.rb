@@ -2,7 +2,6 @@ class Sad < Formula
   desc "Search and replace | Space Age seD"
   homepage "https://github.com/ms-jpq/sad"
   version "0.4.17"
-  bottle :unneeded
 
   if Hardware::CPU.arm?
     url "https://github.com/ms-jpq/sad/releases/download/v0.4.17/aarch64-apple-darwin.zip"

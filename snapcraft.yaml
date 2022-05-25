@@ -1,8 +1,8 @@
 name: sad
 
-base: core18
+base: core20
 
-version: "0.4.20"
+version: "0.4.21"
 
 summary: |-
   Search and replace | Space Age seD
@@ -20,10 +20,6 @@ description: |-
 
   https://github.com/ms-jpq/sad
 
-
-grade: stable
-confinement: devmode
-
 apps:
   sad:
     command: sad
@@ -31,4 +27,6 @@ apps:
 parts:
   sad:
     plugin: rust
-    source: https://github.com/ms-jpq/sad
+    source: "https://github.com/ms-jpq/sad"
+    stage-packages:
+      - fzf

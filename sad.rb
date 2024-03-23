@@ -3,16 +3,16 @@
 class Sad < Formula
   desc 'Search and replace | Space Age seD'
   homepage 'https://github.com/ms-jpq/sad'
-  version '0.4.26'
+  version '0.4.27'
 
   if Hardware::CPU.arm?
-    url 'https://github.com/ms-jpq/sad/releases/download/v0.4.26/aarch64-apple-darwin.zip'
-    sha256 'a6d9476d76ead2a9be78963bbe1224c3680037a4b9dfb943adba5cf005a611aa'
+    url 'https://github.com/ms-jpq/sad/releases/download/v0.4.27/aarch64-apple-darwin.zip'
+    sha256 'e679b26d6a9f95d95f5a96e2816e1f8b12f6d13c11281a0b832928792004ad50'
   end
 
   if Hardware::CPU.intel?
-    url 'https://github.com/ms-jpq/sad/releases/download/v0.4.26/x86_64-apple-darwin.zip'
-    sha256 'caabef475e62174226d6d6b9a320eb3a80690fbe702fa623f90fd51849d7d77a'
+    url 'https://github.com/ms-jpq/sad/releases/download/v0.4.27/x86_64-apple-darwin.zip'
+    sha256 'c7d3469db1b5ac4ee89a2b0690139ae7e17f44ac64c30e2b0658add8b2b218f3'
   end
 
   depends_on 'fzf'

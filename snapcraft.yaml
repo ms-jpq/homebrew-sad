@@ -2,7 +2,7 @@ name: sad
 
 base: core20
 
-version: "0.4.27"
+version: "0.4.28"
 
 summary: |-
   Search and replace | Space Age seD
